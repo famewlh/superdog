@@ -1,0 +1,418 @@
+/* 头部样式 */
+.w0 {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.bgc1 {
+    background-color: #20cbd4;
+    height: 80px;
+    padding: 5px 0px;
+}
+
+.w1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.top {
+    height: 80px;
+    position: relative;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    overflow: hidden;
+    background: url(./../../images/logo.png) center no-repeat;
+    background-size: contain;
+}
+
+.logo2 {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    overflow: hidden;
+    background: url(./../../images/logo2.png) center no-repeat;
+    background-size: contain;
+}
+
+.tel {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tel a {
+    font-size: 14px;
+}
+
+.f1 a,
+.f1 a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.top_weixin {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    overflow: hidden;
+}
+
+.top_weixin img {
+    width: 100%;
+    height: 100%;
+}
+
+.top_weixin_txt {
+    width: 70px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    overflow: hidden;
+}
+
+._img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 脚步样式 */
+.bgc3 {
+    background-color: #f8f8f8;
+    padding: 20px 0px;
+}
+
+.title2 {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #f90;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ul6 ul {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+.ul6 li {
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+    background: url(./../../images/jiantou.png) top right no-repeat;
+}
+
+.ul6 .li4,
+.ul6 .li6 {
+    background: none;
+}
+
+.ul6 li .d1 {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.ul6 .li1 .d1 {
+    background: url(./../../images/mark3_1.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 .li2 .d1 {
+    background: url(./../../images/mark3_2.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 .li3 .d1 {
+    background: url(./../../images/mark3_3.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 .li4 .d1 {
+    background: url(./../../images/mark3_4.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 .li5 .d1 {
+    background: url(./../../images/mark3_5.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 .li6 .d1 {
+    background: url(./../../images/mark3_6.png) center no-repeat;
+    background-size: 80% auto;
+    background-color: #ff9900;
+}
+
+.ul6 li .d2 {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.title3 {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.ul7 ul {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+.ul7 li {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+
+.ul7 li .d1 {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.ul7 .li1 .d1 {
+    background: url(./../../images/mark4_1.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #fff;
+}
+
+.ul7 .li2 .d1 {
+    background: url(./../../images/mark4_2.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #fff;
+}
+
+.ul7 .li3 .d1 {
+    background: url(./../../images/mark4_3.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #fff;
+}
+
+.ul7 .li4 .d1 {
+    background: url(./../../images/mark4_4.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #fff;
+}
+
+.ul7 .li5 .d1 {
+    background: url(./../../images/mark4_5.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #fff;
+}
+
+.ul7 li .d2 {
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+
+.w2 {
+    width: 50%;
+    overflow: hidden;
+}
+
+.fleft {
+    float: left;
+}
+
+.ul8 ul {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 72px;
+}
+
+.ul8 li {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ul8 .li1 {
+    text-align: center;
+    color: #ff9900;
+    font-size: 16px;
+    height: 25px;
+}
+
+.ul8 .li2 {
+    background: url(./../../images/xiehui2.png) center no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.ul8 .li3 {
+    text-align: center;
+    color: #ff9900;
+    font-size: 18px;
+    height: 25px;
+}
+
+.foot_weixin {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.foot_weixin img {
+    width: 100px;
+    height: 100px;
+}
+
+.foot_weixin_txt {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* 脚步导航 */
+.w4 {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.f1 a,
+.f1 a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    max-width: 640px;
+    position: fixed;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+
+.menu li {
+    width: 20%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.w3 {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.end {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    clear: both;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    background: #20cbd4;
+}
+
+.end li {
+    width: 25%;
+    height: 40px;
+    padding: 5px 0px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+/* 微信弹出框 */
+.float_weixin {
+    width: 200px;
+    height: 240px;
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -100px;
+    overflow: hidden;
+    /* display: none; */
+    box-shadow: 5px 5px 20px #888;
+}
+
+.float_weixin img {
+    width: 200px;
+    height: 200px;
+}
+
+.float_weixin .close {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #20cbd4;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu li.active {
+    background-color: rgba(0, 234, 255, 0.5);
+}

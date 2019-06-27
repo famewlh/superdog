@@ -1,0 +1,515 @@
+/* 选择猫狗 */
+.bgc1 {
+    background-color: #20cbd4 !important;
+    height: 80px;
+    padding: 5px 0px;
+}
+
+.w1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.f2 a,
+.f2 a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.f2 a:hover {
+    color: #111;
+}
+
+.ul13 ul {
+    width: 90%;
+    height: 60px;
+    clear: both;
+    margin: auto;
+    overflow: hidden;
+}
+
+.ul13 li {
+    width: 50%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+}
+
+.ul13 li div {
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-indent: 30px;
+}
+
+.ul13 li div a {
+    font-size: 14px;
+}
+
+.ul13 .li1 div {
+    background: url(./../../images/dog.png) left no-repeat;
+    background-size: auto 90%;
+    background-color: #fff;
+}
+
+.ul13 .li2 div {
+    background: url(./../../images/cat.png) left no-repeat;
+    background-size: auto 90%;
+    background-color: #fff;
+}
+
+/* 宠物品种导航 */
+.w0 {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.title7 {
+    background: url(./../../images/title3.png) center no-repeat;
+    background-size: contain;
+    height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 36px;
+    overflow: hidden;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.ul2 ul {
+    width: 100%;
+    margin: auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.ul2 li {
+    width: 25%;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ul2 li .d0 {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px #20cbd4 solid;
+    border-radius: 100%;
+}
+
+.ul2 li .d1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.ul2 li .d2 {
+    width: 60%;
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
+    color: #20cbd4;
+    font-size: 12px;
+    border-top: 1px #20cbd4 solid;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ul2 .li1 .d1 {
+    background: url(./../../images/cate1.png) center no-repeat;
+    background-size: contain;
+}
+
+.ul2 .li2 .d1 {
+    background: url(./../../images/cate2.png) center no-repeat;
+    background-size: contain;
+}
+
+.ul2 .li3 .d1 {
+    background: url(./../../images/cate3.png) center no-repeat;
+    background-size: contain;
+}
+
+.ul2 .li4 .d1 {
+    background: url(./../../images/cate4.png) center no-repeat;
+    background-size: contain;
+}
+
+.ul2 li.on .d0 {
+    background: #20cbd4;
+}
+
+.ul2 li.on .d2 {
+    color: #fff;
+    border-top: 1px #fff solid;
+}
+
+.bgc3 {
+    background-color: #f8f8f8;
+    padding: 20px 0px;
+}
+
+.cate ul {
+    width: 96%;
+    margin: auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.cate li {
+    width: 25%;
+    float: left;
+    padding-bottom: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cate li img {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.f2 a,
+.f2 a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.f2 a:hover {
+    color: #111;
+}
+
+/* 宠物服务 */
+
+.title1 {
+    background: url(./../../images/title1.png) center no-repeat;
+    background-size: contain;
+    height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 36px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ul3 ul {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.ul3 li {
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+}
+
+.ul3 li .d1 {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.ul3 .li1 .d1 {
+    background: url(./../../images/mark1_1.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 .li2 .d1 {
+    background: url(./../../images/mark1_2.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 .li3 .d1 {
+    background: url(./../../images/mark1_3.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 .li4 .d1 {
+    background: url(./../../images/mark1_4.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 .li5 .d1 {
+    background: url(./../../images/mark1_5.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 .li6 .d1 {
+    background: url(./../../images/mark1_6.png) center no-repeat;
+    background-size: 70% auto;
+    background-color: #20cbd4;
+}
+
+.ul3 li .d2 {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.ul3 li .d2 a {
+    font-size: 14px;
+}
+
+/* 最新狗狗待售 */
+.ul4 ul {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.ul4 li {
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.ul4 li .d1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.ul4 li .d1 img {
+    width: 100%;
+}
+
+.ul4 li .d2 {
+    width: 80%;
+    margin: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 10px;
+    border-left: 1px #20cbd4 solid;
+    overflow: hidden;
+}
+
+.ul4 li .d2 a {
+    font-size: 14px;
+}
+
+.ul4 li .d3 {
+    width: 80%;
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 10px;
+    border-left: 1px #20cbd4 solid;
+    overflow: hidden;
+    color: #777;
+}
+
+.ul4 li .d4 {
+    display: none;
+}
+
+.f4 a,
+.f4 a:hover {
+    color: #20cbd4;
+    text-decoration: none;
+    display: block;
+}
+
+.f4 a:hover {
+    color: #fff;
+}
+
+.more {
+    width: 160px;
+    height: 36px;
+    margin: auto;
+    line-height: 36px;
+    border: 1px #20cbd4 solid;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.more a {
+    font-size: 14px;
+}
+
+.more:hover {
+    background-color: #20cbd4;
+}
+
+/* 最新猫咪代售 */
+.title6 {
+    background: url(./../../images/title2.png) center no-repeat;
+    background-size: contain;
+    height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 36px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 服务 */
+.ul5 ul {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.ul5 li {
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+}
+
+.ul5 li .d1 {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.ul5 .li1 .d1 {
+    background: url(./../../images/mark2_1.png) center no-repeat;
+    background-size: 80% auto;
+}
+
+.ul5 .li2 .d1 {
+    background: url(./../../images/mark2_2.png) center no-repeat;
+    background-size: 80% auto;
+}
+
+.ul5 .li3 .d1 {
+    background: url(./../../images/mark2_3.png) center no-repeat;
+    background-size: 80% auto;
+}
+
+.ul5 li .d2 {
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+/* 关于我们 */
+.bg1 {
+    background: url(./../../images/bg1.jpg) center no-repeat;
+    background-size: auto 100%;
+    padding: 30px 0px;
+}
+
+.about {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.about_title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.about_txt {
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.more2 {
+    width: 160px;
+    height: 36px;
+    margin: auto;
+    line-height: 36px;
+    background-color: #20cbd4;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more2 a {
+    font-size: 14px;
+}
+
+.more2:hover {
+    background-color: #f60;
+}
+
+.f1 a,
+.f1 a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+/* 买家秀 */
+._img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 宠物咨询 */
+.ul10 ul {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.ul10 li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    color: #666;
+    font-size: 12px;
+    border-bottom: 1px #eee solid;
+}
