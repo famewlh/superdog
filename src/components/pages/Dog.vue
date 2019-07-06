@@ -184,4 +184,5 @@ export default {
 </script>
 
 <style>
+@import "./../../assets/css/page/index.css";
 </style>

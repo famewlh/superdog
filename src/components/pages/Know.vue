@@ -6,15 +6,21 @@
         <ul>
           <li class="li1">
             <em class='right'>2017年05月28日</em>
-            <a href="know_25676_203620.html" title="狗狗不吃狗粮怎么办">狗狗不吃狗粮怎么办</a>
+            <router-link :to="{name:'Solve',params: { id: 'dont_eat'}}">
+              狗狗不吃狗粮怎么办
+            </router-link>
           </li>
           <li class="li2">
             <em class='right'>2013年12月06日</em>
-            <a href="know_25676_203626.html" title="养狗注意事项">养狗注意事项</a>
+            <router-link :to="{name:'Solve',params: { id: 'how_do'}}">
+              养狗注意事项
+            </router-link>
           </li>
           <li class="li3">
             <em class='right'>2013年11月29日</em>
-            <a href="know_25676_203627.html" title="小狗为什么喜欢乱咬东西呢？">小狗为什么喜欢乱咬东西呢？</a>
+            <router-link :to="{name:'Solve',params: { id: 'why_spit'}}">
+              小狗为什么喜欢乱咬东西呢？
+            </router-link>
           </li>
         </ul>
         <div class="pageList ft2">
@@ -37,6 +43,6 @@ export default {
 </script>
 
 <style>
+@import "./../../assets/css/page/index.css";
 @import "./../../assets/css/page/know.css";
-
 </style>

@@ -6,23 +6,23 @@
         <ul>
           <li class="li1">
             <div class="d1">
-              <a href="show_25679_203630.html" title="买家秀">
+              <a href="javascript:(0)" title="买家秀">
                 <img src="./../../assets/images/1621215348.jpg" alt="买家秀">
               </a>
             </div>
             <div class="d2">
-              <a href="show_25679_203630.html" title="买家秀">买家秀</a>
+              <a href="javascript:(0)" title="买家秀">买家秀</a>
             </div>
             <div class="d4"></div>
           </li>
           <li class="li2">
             <div class="d1">
-              <a href="show_25679_203631.html" title="买家秀">
+              <a href="javascript:(0)" title="买家秀">
                 <img src="./../../assets/images/1621475472.jpg" alt="买家秀">
               </a>
             </div>
             <div class="d2">
-              <a href="show_25679_203631.html" title="买家秀">买家秀</a>
+              <a href="javascript:(0)" title="买家秀">买家秀</a>
             </div>
             <div class="d4"></div>
           </li>
@@ -47,6 +47,6 @@ export default {
 </script>
 
 <style>
+@import "./../../assets/css/page/index.css";
 @import "./../../assets/css/page/show.css";
-
 </style>

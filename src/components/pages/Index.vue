@@ -689,15 +689,21 @@
         <ul>
           <li class="li1">
             <em></em>
-            <a href="know_25676_203620.html" title="狗狗不吃狗粮怎么办">狗狗不吃狗粮怎么办</a>
+            <router-link :to="{name:'Solve',params: { id: 'dont_eat'}}">
+              狗狗不吃狗粮怎么办
+            </router-link>
           </li>
           <li class="li2">
             <em></em>
-            <a href="know_25676_203626.html" title="养狗注意事项">养狗注意事项</a>
+            <router-link :to="{name:'Solve',params: { id: 'how_do'}}">
+              养狗注意事项
+            </router-link>
           </li>
           <li class="li3">
             <em></em>
-            <a href="know_25676_203627.html" title="小狗为什么喜欢乱咬东西呢？">小狗为什么喜欢乱咬东西呢？</a>
+            <router-link :to="{name:'Solve',params: { id: 'why_spit'}}">
+              小狗为什么喜欢乱咬东西呢？
+            </router-link>
           </li>
         </ul>
       </div>

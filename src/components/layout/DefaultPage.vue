@@ -105,8 +105,8 @@
       </div>
     </div>
     <!-- 脚部导航 -->
-    <div class="w4" v-if='menuFlag'>
-      <ul class="f1 menu">
+    <div class='w4'>
+      <ul class="f1 menu" :class="{_none: menuFlag}">
         <li @click='showMenu' :class="{active: curPage == 'Index'}">
           <router-link :to="{name:'Index'}">网站首页</router-link>
         </li>
@@ -149,7 +149,7 @@
           </a>
         </li>
         <li>
-          <a href="tel:17620756648">
+          <a href="tel:13433106606">
             <i class="el-icon-phone"></i>
             <br>电话咨询
           </a>
@@ -186,14 +186,14 @@ export default {
         require("./../../assets/images/1750405777.jpg"),
         require("./../../assets/images/1750322076.jpg")
       ],
-      menuFlag: false,
+      menuFlag: true,
       wechatFlag: false,
       curPage: 'Index',
     }
   },
   methods: {
     showMenu (ele) {
-      this.menuFlag = !this.menuFlag;
+      this.menuFlag = !this.menuFlag; 
     },
     showWechat () {
       this.wechatFlag = !this.wechatFlag;

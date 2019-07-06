@@ -205,8 +205,8 @@
     font-size: 16px;
     line-height: 36px;
     overflow: hidden;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 .ul3 ul {
@@ -379,8 +379,8 @@
     font-size: 16px;
     line-height: 36px;
     overflow: hidden;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 /* 服务 */
@@ -512,4 +512,11 @@
     color: #666;
     font-size: 12px;
     border-bottom: 1px #eee solid;
+}
+
+img {
+    background-image: url(./../../images/ajax-loader.gif);
+    background-size:fill;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

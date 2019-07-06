@@ -1,35 +1,24 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import defaultPage from './components/layout/DefaultPage'
-import Index from './components/pages/Index'
-import About from './components/pages/About'
-import Dog from './components/pages/Dog'
-import Cat from './components/pages/Cat'
-import Know from './components/pages/Know'
-import Service from './components/pages/Service'
-import Video from './components/pages/Video'
-import Show from './components/pages/Show'
-import Buy from './components/pages/Buy'
-import Contact from './components/pages/Contact'
-import Detail from './components/pages/Detail'
 
-
+var defaultPage = () => import('./components/layout/DefaultPage')
+var Index = () => import('./components/pages/Index')
+var About = () => import('./components/pages/About')
+var Dog = () => import('./components/pages/Dog')
+var Cat = () => import('./components/pages/Cat')
+var Know = () => import('./components/pages/Know')
+var Video = () => import('./components/pages/Video')
+var Show = () => import('./components/pages/Show')
+var Buy = () => import('./components/pages/Buy')
+var Contact = () => import('./components/pages/Contact')
+var Detail = () => import('./components/pages/Detail')
+var Service = () => import('./components/pages/Service')
+var Solve = () => import('./components/pages/Solve')
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'default',
-    //   component: defaultPage,
-    //   redirect: '/index',
-    //   children: [{
-    //     path: 's/:name',
-    //     name: 'goods',
-    //     component: goodsList
-    //   }]
-    // }
     {
         path: '/',
         name: 'default',
@@ -79,6 +68,10 @@ export default new Router({
           path: '/detail/:id',
           name: 'Detail',
           component: Detail
+        },{
+          path: '/solve/:id',
+          name: 'Solve',
+          component: Solve
         }]
     }
   ]
