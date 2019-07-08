@@ -155,11 +155,10 @@
           </a>
         </li>
         <li>
-          <a href="contact.html">
+         <router-link :to="{name:'Contact'}">
             <i class="el-icon-location"></i>
-            <br>
-            <router-link :to="{name:'Contact'}">联系我们</router-link>            
-          </a>
+            <br>联系我们     
+          </router-link>
         </li>
         <li class="btn_float_weixin" @click='showWechat'>
           <a href="javascript:void(0)">
